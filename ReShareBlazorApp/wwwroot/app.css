@@ -1,0 +1,110 @@
+/* Główne kontener paska nawigacji */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bg-1 {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Układ wewnątrz kontenera */
+.container-fluid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo / Marka */
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+/* Lista nawigacyjna */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.me-auto {
+    margin-right: auto;
+}
+
+.nav-link {
+    color: #555555;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: #0d6efd;
+        background-color: rgba(13, 110, 253, 0.08);
+    }
+
+/* Formularz i wyszukiwarka */
+.hstack {
+    display: flex;
+    align-items: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.form-control {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .form-control:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    }
+
+/* Przycisk wyszukiwania */
+.btn-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.theme-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+    .theme-secondary:hover {
+        background-color: #5c636a;
+    }
+
+    .theme-secondary:active {
+        transform: scale(0.96);
+    }
+
+.btn-icon svg {
+    fill: currentColor;
+}
