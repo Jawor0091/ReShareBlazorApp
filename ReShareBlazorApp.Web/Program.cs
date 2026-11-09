@@ -12,6 +12,7 @@ builder.Services.AddHttpClient("API", client =>
     client.BaseAddress =
     new Uri(builder.Configuration["ApiSettings:BaseAddress"]!);
 });
+//
 builder.Services.AddScoped(sp =>
 {
     var factory = sp.GetRequiredService<IHttpClientFactory>();
