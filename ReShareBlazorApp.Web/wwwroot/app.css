@@ -1,37 +1,28 @@
-.main-navbar {
+        /*NavBar*/
+        .main-navbar {
     width: 100%;
     padding: 12px 24px;
     background: #1e293b;
     border-bottom: 1px solid #334155;
-}
-
-.main-navbar-container {
+} .main-navbar-container {
     display: flex;
     align-items: center;
     gap: 30px;
-}
-
-.main-navbar-brand {
+} .main-navbar-brand {
     color: #f8fafc;
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
-}
-
-    .main-navbar-brand:hover {
+} .main-navbar-brand:hover {
         color: #60a5fa;
-    }
-
-.main-navbar-links {
+    } .main-navbar-links {
     display: flex;
     align-items: center;
     gap: 8px;
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.main-navbar-link {
+} .main-navbar-link {
     display: block;
     padding: 9px 16px;
     color: #cbd5e1;
@@ -39,19 +30,13 @@
     font-size: 15px;
     text-decoration: none;
     transition: 0.2s ease;
-}
-
-    .main-navbar-link:hover {
+} .main-navbar-link:hover {
         color: white;
         background: #334155;
-    }
-
-    .main-navbar-link.active {
+    } .main-navbar-link.active {
         color: white;
         background: #2563eb;
-    }
-
-.navbar-search {
+    } .navbar-search {
     margin-right: 50px;
     display: flex;
     align-items: center;
@@ -63,14 +48,10 @@
     border-radius: 10px;
     overflow: hidden;
     transition: 0.2s ease;
-}
-
-    .navbar-search:focus-within {
+} .navbar-search:focus-within {
         border-color: #3b82f6;
         box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
-    }
-
-.navbar-search-input {
+    } .navbar-search-input {
     flex: 1;
     min-width: 0;
     height: 100%;
@@ -80,13 +61,9 @@
     border: none;
     outline: none;
     font-size: 14px;
-}
-
-    .navbar-search-input::placeholder {
+} .navbar-search-input::placeholder {
         color: #94a3b8;
-    }
-
-.navbar-search-button {
+    } .navbar-search-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,17 +75,11 @@
     border: none;
     cursor: pointer;
     transition: background 0.2s ease;
-}
-
-    .navbar-search-button:hover {
+} .navbar-search-button:hover {
         background: #1d4ed8;
-    }
-
-    .navbar-search-button svg {
+    } .navbar-search-button svg {
         fill: currentColor;
-    }
-
-@media (max-width: 576px) {
+    } @media (max-width: 576px) {
     .main-navbar {
         padding: 12px;
     }
@@ -122,53 +93,40 @@
         width: 100%;
     }
 }
-/*Register page*/
-
-.register-container {
+        /*Register page*/
+        .register-container {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 15px;
     background: #f4f6f9;
-}
-
-.register-card {
+} .register-card {
     width: 100%;
     max-width: 430px;
     padding: 35px;
     background: white;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-}
-
-    .register-card h2 {
+} .register-card h2 {
         margin-bottom: 8px;
         font-size: 26px;
         font-weight: 700;
         color: #222;
-    }
-
-    .register-card p {
+    } .register-card p {
         margin-bottom: 25px;
         color: #777;
         font-size: 14px;
-    }
-
-.register-field {
+    } .register-field {
     display: flex;
     flex-direction: column;
     margin-bottom: 18px;
-}
-
-    .register-field label {
+} .register-field label {
         margin-bottom: 7px;
         font-size: 14px;
         font-weight: 600;
         color: #333;
-    }
-
-.register-input {
+    } .register-input {
     width: 100%;
     padding: 11px 13px;
     border: 1px solid #ddd;
@@ -176,28 +134,20 @@
     font-size: 14px;
     outline: none;
     transition: border-color 0.2s;
-}
-
-    .register-input:focus {
+} .register-input:focus {
         border-color: #0d6efd;
-    }
-
-.register-terms {
+    } .register-terms {
     display: flex;
     align-items: center;
     gap: 8px;
     margin: 20px 0;
     font-size: 14px;
     color: #555;
-}
-
-    .register-terms input {
+} .register-terms input {
         width: 16px;
         height: 16px;
         cursor: pointer;
-    }
-
-.register-button {
+    } .register-button {
     width: 100%;
     padding: 12px;
     border: none;
@@ -208,21 +158,14 @@
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s;
-}
-
-    .register-button:hover {
+} .register-button:hover {
         background: #0b5ed7;
-    }
-
-.validation-message {
+    } .validation-message {
     margin-top: 5px;
     color: #dc3545;
     font-size: 12px;
-}
-
-@media (max-width: 480px) {
+} @media (max-width: 480px) {
     .register-card {
         padding: 25px 20px;
     }
 }
-

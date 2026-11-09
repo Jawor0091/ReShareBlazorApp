@@ -17,4 +17,8 @@
     <ProjectReference Include="..\ReShareBlazorApp.Shared\ReShareBlazorApp.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>
